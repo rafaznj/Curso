@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="estilo.css" rel="stylesheet">
+</head>
+<body>
+    <section class="principal">
+
+        <h1>%IMC</h1>
+
+        <form onsubmit="return calcularIMC(event)">
+            
+            <div class="inputs">
+                <input type="text" id="peso" placeholder="DIGITE O SEU PESO:">
+                <input type="text" id="altura" placeholder="DIGITE SUA ALTURA:">
+                <input type="submit" id="IMC" value="CALCULAR">
+            </div>
+
+            <p id="resultado"></p>
+
+        </form>
+        
+    </section>
+    <script src="Sistema IMC/script.js"></script>
+</body>
+</html>
