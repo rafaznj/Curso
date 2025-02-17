@@ -1,5 +1,4 @@
--Lista de Comandos JavaScript-
-
+                                                                 ---- LISTA DE COMANDOS ----
 
 * let ou var nomeVariavel -> Declaração de uma variável
 
@@ -23,7 +22,7 @@
 
 * elementoPai.appendChild(elementoFilho) -> Insere um elemento(filho) em outro elemento(pai) no HTML
 
-* `Texto ${var1} ${var2}`; -> Concatenação com crase
+* `Texto ${var1}, ${var2}`; -> Concatenação com crase
 
 * let lista = ["Conteúdo1", "Conteúdo2"]; -> Criação de um Vetor(Array)
 
