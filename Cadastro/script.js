@@ -19,4 +19,3 @@ function adicionarIdade() {
     pessoa.idade = prompt("Digite a idade");
     idade.innerHTML = `Idade: ${pessoa.idade} </br>`
 }
-
