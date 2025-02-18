@@ -2,8 +2,8 @@ let pessoa = {
     nome: "Rafael", sobrenome: "Sena", empresa: "CEPEDI", cargo: "Estágiario"
 }; 
 
-// // console.log(pessoa.nome);
-// // console.log(pessoa.cargo);
+// console.log(pessoa.nome);
+// console.log(pessoa.cargo);
 
 // const { nome, cargo } = pessoa;
 
@@ -17,5 +17,4 @@ let pessoa = {
 // const {nome:nometeste,...} = ...
 
 // let nome = ["Enzo", "Rafael", "Guilherme"]
-// let {0:enzo, 1:rafael, 3:guilherme
-
+// let {0:enzo, 1:rafael, 3:guilherme}
