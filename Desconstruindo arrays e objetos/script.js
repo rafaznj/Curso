@@ -13,4 +13,3 @@ let pessoa = {
 let nome = ["Roberto", "Jorge", "Mauricio"];
 
 let [primeiro, segundo] = nome;
-
