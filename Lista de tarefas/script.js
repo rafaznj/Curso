@@ -25,12 +25,9 @@ function mostrarTarefa(){
         liElement.appendChild(linkElement);
         listElement.appendChild(liElement);
 
-
-
     })
     mostrarTarefa();
 }
-
 
 function adicionarTarefa(){
     if(inputElement.value === ""){
