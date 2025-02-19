@@ -43,3 +43,5 @@
 * concat() -> Cria um novo Array mesclando Arrays existentes
 
 * spread operator -> [...array(exemplo: 1,2,3) com valores, 4,5,6] é usado para 'espalhar' os elementos de um array em outro array ou objeto
+
+* rest -> 
