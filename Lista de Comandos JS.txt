@@ -44,4 +44,6 @@
 
 * spread operator -> [...array(exemplo: 1,2,3) com valores, 4,5,6] é usado para 'espalhar' os elementos de um array em outro array ou objeto
 
-* rest -> 
+* rest -> permite representar um número indefinido de argumentos como um array
+
+map -> percorrer tood um array
