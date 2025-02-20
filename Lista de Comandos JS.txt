@@ -47,3 +47,5 @@
 * rest -> permite representar um número indefinido de argumentos como um array
 
 map -> percorrer tood um array
+
+reduce -> para reduzir um array
