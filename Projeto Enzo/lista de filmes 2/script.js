@@ -1,5 +1,3 @@
-// ao pesquisar dnv um filme, ele devolveo o filme anterior pesquisado 
-
 let listafilmes = []
 let filmesiguais = [];
 let historico = []; // recebe oq foi digitado em pesquisa
@@ -24,9 +22,7 @@ function adicionarFilme() {
 function pesquisarFilme() {
     let pesquisa = prompt("");
     
-    for(i = 0; i < historico.length; i++){
-        historico[i].push(pesquisa)
-    }
+    historico.push(pesquisa)
 
     for (i = 0; i < listafilmes.length; i++) {
         if (listafilmes[i].nome == pesquisa) {
@@ -40,14 +36,11 @@ function pesquisarFilme() {
     for (i = 0; i < filmesiguais.length; i++) {
         let liFilme = document.createElement("li")
         liFilme.innerHTML = `Nome: ${filmesiguais[i].nome}<br> Diretor: ${filmesiguais[i].diretor}<br> Ano: ${filmesiguais[i].ano}`
-        listaFilmesInterface.appendChild(liFilme)
+        //listaFilmesInterface.appendChild(liFilme)
     }
 }
 
-
 function historicoDePesquisas() { // historico de pesquisas 
     historicoFilmesInteface.innerHTML = `Historico de pesquisas <br>`
-    for (i = 0; i < historico.length; i++){
-        historicoFilmesInteface.innerHTML = `${historico[i]} <br>`
-    }
+    historicoFilmesInteface.innerHTML = `${historico} <br>`
 }
