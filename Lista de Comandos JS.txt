@@ -46,6 +46,12 @@
 
 * rest -> permite representar um número indefinido de argumentos como um array
 
-map -> percorrer tood um array
+* map -> percorrer tood um array
 
-reduce -> para reduzir um array
+* reduce -> para reduzir um array
+
+* find -> array.find(argumentos) , busca um determinado dado armazenado em um array, retorna logo o primeiro encontrado, msm com repetidos
+
+* filter -> ele filtra os itens nas condições que vc passa e retorna oq foi filtrado,  retorna todos os elementos encontrados, msm com repetidos
+
+* função anonima -> () => {} 
