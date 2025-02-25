@@ -13,4 +13,5 @@ let nomes = ["Roberto", "Carlos", "Rogerio", "Davi", "Ana", "Bia"];
 let listagem = nomes.filter((item)=>{
     return item.length <= 3;
 })
+
 console.log(listagem);
