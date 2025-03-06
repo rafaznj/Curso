@@ -29,5 +29,4 @@ function Cadastro(dados: Name){
     console.log(dados);
 }
 
-
 Cadastro({nome: "Eu", id: 12, isADM: true});
